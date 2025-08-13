@@ -1,0 +1,11 @@
+{
+  "overall_status": "Sin datos generados.",
+  "communication_status": "Sin datos",
+  "api_status": "inactive",
+  "proxy_status": "inactive",
+  "hunters_status": "inactive",
+  "active_bots": 0,
+  "total_tasks_completed": 0,
+  "success_rate": 0.0,
+  "failed_tasks": 0
+} 

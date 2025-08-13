@@ -1,0 +1,24 @@
+# 🔐 Archivos sensibles y claves
+.env*
+*.key
+wallet_madre.json
+wallets_exportadas/
+
+# 🧪 Logs y datos temporales
+logs/
+*.log
+*.bak
+
+# 🧠 Compilados y caché
+__pycache__/
+*.pyc
+*.pyo
+
+# 🧱 Configs locales del editor
+.vscode/
+.idea/
+.DS_Store
+
+# ⚙️ Scripts auxiliares no necesarios en producción
+*.bat
+*.sh

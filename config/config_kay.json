@@ -1,0 +1,12 @@
+{
+  "galxe": {
+    "cookie_name": "ph_phc_9sSugZ5bXYldHSU4TaDf0jB2RBFxxCLFKQ91N6CqWhL_posthog",
+    "cookie_value": "{\"distinct_id\":\"0197f787-9d77-7572-b708-538c441be24d\",\"$sesid\":[1752205218472,\"0197f787-9d75-784c-a0fb-4c8827c48263\",1752204549492]}",
+    "base_url": "https://app.galxe.com",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+      "Accept": "application/json, text/plain, */*",
+      "Referer": "https://app.galxe.com/"
+    }
+  }
+}
