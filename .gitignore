@@ -1,10 +1,13 @@
-# 🔐 Archivos sensibles y claves
-.env*
+# 🔐 Secretos
+.env*                 # ignora TODOS los .env...
+!/.env_wallet_madre.enc  # ...EXCEPTO el cifrado, que sí queremos trackear
+env_wallet_madre         # por si existe sin el punto
+env_wallet_madre*        # y cualquier variante (txt, backup, etc)
 *.key
 wallet_madre.json
-wallets_exportadas/
+.secrets/
 
-# 🧪 Logs y datos temporales
+# 🧪 Logs y temporales
 logs/
 *.log
 *.bak
@@ -14,11 +17,11 @@ __pycache__/
 *.pyc
 *.pyo
 
-# 🧱 Configs locales del editor
+# 🧱 Configs de editor
 .vscode/
 .idea/
 .DS_Store
 
-# ⚙️ Scripts auxiliares no necesarios en producción
-*.bat
-*.sh
+# ⚙️ (Opcional) si quieres commitear .bat o .sh, quita estas dos:
+# *.bat
+# *.sh
